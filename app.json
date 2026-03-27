@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "AquaBond",
+    "slug": "aquabond",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "sdkVersion": "49.0.0",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#e6f3e9"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

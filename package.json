@@ -1,16 +1,25 @@
-{
-  "name": "color-scanner",
+﻿{
+  "name": "aquabond",
   "version": "1.0.0",
-  "description": "Color-based pH scanner using image processing",
-  "main": "main.js",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "node main.js",
-    "test": "node main.js test.jpg"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
   "dependencies": {
-    "sharp": "^0.32.1"
+    "expo": "~49.0.0",
+    "expo-camera": "~13.2.1",
+    "@react-native-async-storage/async-storage": "~1.19.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6"
   },
-  "keywords": ["color", "ph", "scanner", "image-processing"],
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "keywords": ["color", "ph", "scanner", "image-processing", "expo"],
   "author": "",
   "license": "MIT"
 }

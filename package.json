@@ -1,0 +1,16 @@
+{
+  "name": "color-scanner",
+  "version": "1.0.0",
+  "description": "Color-based pH scanner using image processing",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node main.js test.jpg"
+  },
+  "dependencies": {
+    "sharp": "^0.32.1"
+  },
+  "keywords": ["color", "ph", "scanner", "image-processing"],
+  "author": "",
+  "license": "MIT"
+}
